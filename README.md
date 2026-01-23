@@ -85,7 +85,7 @@ Go to **File > Open Gerber** and select the Gerber files you exported from KiCad
 
 Select all the gerber files and click **Open**. You will see them on the left panel and the canvas.
 
-<img src="images/flatcam_gerber_files.png" alt="FlatCAM Gerber Files" width="720">
+<img src="images/flatcam_gerber_files.png" alt="FlatCAM Gerber Files">
 
 Do the following operations to these layers:
   - **Front:** Create new geometry using **Isolate**. Set **Passes** to ```5``` and **Overlap** to ```60.00%```. **Delete** the original gerber file.
