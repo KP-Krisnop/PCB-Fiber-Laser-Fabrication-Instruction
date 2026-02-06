@@ -108,8 +108,7 @@ Do the following operations to these layers:
 Go to **File > Scripting > New Script**. **Delete** all template code. **Paste** this code and hit **Run**
 
    ```tcl
-   set home_dir $env(HOME)
-   set output_path [file join $home_dir "Desktop" "svg"] ;# <--- Change this to your desired output path
+   set output_path {'/path/to/your/output/folder'} ;# <--- Change this to your desired output path
    file mkdir $output_path 
 
    set object_list [get_names]
